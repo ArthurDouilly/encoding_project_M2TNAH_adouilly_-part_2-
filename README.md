@@ -12,7 +12,7 @@ The first step of the encoding was deciding what I wanted to encode in my docume
 
 ##### How to encode it
 
-The way I have chosen to encode my documents was to keep to that structure, with a <docMetadata> element which was meant to define who wrote the document, its history, and where it is found, as well as a <docText> element which contains the document. <docEncoding> is structured by an <protocol>, the protocol, a <main> containing the core of the text, and an optional <eschatocol>. I have chosen to use empty elements and notes to give more details as needed.
+The way I have chosen to encode my documents was to keep to that structure, with a 'docMetadata' element which was meant to define who wrote the document, its history, and where it is found, as well as a 'docText' element which contains the document. 'docEncoding' is structured by 'protocol', the protocol, 'main' containing the core of the text, and an optional 'eschatocol'. I have chosen to use empty elements and notes to give more details as needed.
 
 ### Encoding in TEI_all
 
