@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT document (docMetadata, docText)> <!-- The root element of the encoding -->
+
+<!-- Metadata relating to the document, the primary source it is encoded from, and the encoding. The last part, docMentions,
+serves as a way to establish a list of entities (places, persons of interest, institutions) and establish IDs for them -->
+
+<!ELEMENT docMetadata (docInfos, docSource, docEncoding, docMentions)>
+<!ELEMENT docInfos (title, author+, date, description?)>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title lang CDATA #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author type (testator | editor) #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT docSource (id, owner, sourceType, bibl?, url?)> 
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ATTLIST owner shorthand (AN | BNF) #REQUIRED>
+<!ELEMENT sourceType EMPTY>
+<!ATTLIST sourceType type (print | manuscript) #REQUIRED>
+<!ATTLIST sourceType digitized (True | False) #REQUIRED>
+<!ELEMENT bibl (author, title, date)>
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT docEncoding (encodedBy, date)>
+<!ELEMENT encodedBy (#PCDATA)>
+
+<!ELEMENT docMentions (listEntity)>
+<!ELEMENT listEntity (place | person | religious_institution)*>
+<!ELEMENT person (#PCDATA)>
+<!ATTLIST person id CDATA #IMPLIED>
+<!ELEMENT place (#PCDATA)>
+<!ATTLIST place id CDATA #IMPLIED>
+<!ATTLIST place located CDATA #IMPLIED>
+<!ELEMENT religious_institution (#PCDATA)>
+<!ATTLIST religious_institution id CDATA #IMPLIED>
+<!ATTLIST religious_institution type (regular | secular | hospital) #REQUIRED>
+
+<!-- Encoding of the document's structure, with specific elements relating to the testament structure, following more or less the structure of diplomatics. -->
+
+<!ELEMENT docText (protocol, main, eschatocol)>
+<!ELEMENT protocol (invocation, address)> <!-- The invocation to religious figures, traditional at the start of the testament, as well as an address to the reader -->
+<!ELEMENT invocation (p)>
+<!ELEMENT address (p)>
+
+<!ELEMENT main (div+)> <!-- The body of the testament, built in divs and paragraphs -->
+<!ELEMENT div (p+)>
+<!ATTLIST div paragraph CDATA #IMPLIED>
+<!ATTLIST div note CDATA #IMPLIED>
+<!ELEMENT p (#PCDATA | name | demand | bequest)*>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name type (beneficiary | religious_figure | institution | place | other) #REQUIRED>
+<!ATTLIST name id CDATA #IMPLIED>
+<!ELEMENT demand (#PCDATA)>
+<!ATTLIST demand type (donation | action | service) #REQUIRED>
+<!ELEMENT bequest (#PCDATA)>
+<!ATTLIST bequest num CDATA #IMPLIED>
+
+<!ELEMENT eschatocol (salutation?, signature?, note?)> <!-- The closing of the document indicates when the document was written and by whom, as well as traditional elements about the soundness of mind and body of the testator -->
+<!ELEMENT salutation (p+)>
+<!ELEMENT signature (p)>
+<!ELEMENT note EMPTY>
+<!ATTLIST note missing_element CDATA #REQUIRED>

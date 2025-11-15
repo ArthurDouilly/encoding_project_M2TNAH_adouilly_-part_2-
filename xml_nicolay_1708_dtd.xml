@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "dtd_nicolay_part2.dtd">
+
+<document>
+
+    <!-- Below is encoded the metadata of the document, relating to the
+        institution which holds them, their format and encoding.-->
+
+    <docMetadata>
+        <docInfos>
+            <title lang="fra">Testament de Marie-Elisabeth Nicolay; encoded from the transcript
+                realized in 1873 by Arthur de Boislisle</title>
+            <author type="testator">Marie-Elisabeth Nicolay</author>
+            <date/>
+        </docInfos>
+        <docSource>
+            <id>ark:/12148/cb36492926d</id>
+            <owner shorthand="BNF">Bibliothèque nationale de France</owner>
+            <sourceType type="print" digitized="True"/>
+            <bibl>
+                <author type="editor">Arthur de Boislisle</author>
+                <title lang="">Histoire de la maison de Nicolay, T.1, pièce 479, p.502-504, as
+                    scanned and made available through Gallica</title>
+                <date when="1873-1875">1873-1875</date>
+            </bibl>
+            <url>https://gallica.bnf.fr/ark:/12148/bpt6k8517958</url>
+        </docSource>
+        <docEncoding>
+            <encodedBy>Arthur Douilly</encodedBy>
+            <date when="2025-11-09">dimanche 9 novembre 2025</date>
+        </docEncoding>
+        <docMentions>
+            <listEntity>
+                <!-- Below is encoded a list of the named entities in this sample -->
+                <place id="GOU" located="Val-d'Oise">Goussainville</place>
+                <place id="IVO">Ivors</place>
+                <place id="VIL">Villaines</place>
+                <place id="MIG">Mignaux</place>
+                <place id="PAR_SJ" located="Paris">Rue Saint-Jacques</place>
+                <place id="PAR_SA" located="Paris">faubourg Saint-Antoine</place>
+                <place id="PAR_RR" located="Paris">Rue de Reuilly</place>
+                <religious_institution id="GOU" type="secular">église de Goussainville</religious_institution>
+                <religious_institution id="HOS" type="regular">Hospitalières de la place
+                    Royale</religious_institution>
+                <religious_institution id="AVE" type="regular">Ave-Maria</religious_institution>
+                <religious_institution id="DSM" type="regular">dames de Sainte-Marie</religious_institution>
+                <religious_institution id="HOD" type="hospital">Hôtel-Dieu</religious_institution>
+                <religious_institution id="HPG" type="hospital">Hôpital-général</religious_institution>
+                <religious_institution id="ANG" type="regular">Anglaises</religious_institution>
+                <religious_institution id="MDM" type="hospital">Marmite des malades</religious_institution>
+            </listEntity>
+        </docMentions>
+    </docMetadata>
+
+    <!-- Below is encoded the text of the sample document, following a structure
+        closer to the structure of the testament than allowed by TEI.-->
+
+    <docText>
+        <protocol>
+            <invocation>
+                <p> Je donne mon âme et mon coeur à <name type="religious_figure">Dieu</name>.
+                    J’abandonne volontiers les biens de ce monde, qui ne sont que vanitez, et dont
+                    je ne me suis que trop servy à cet usage. Je m’en repens avec beaucoup de
+                    doulleurs, comm’ aussy de tous les péchez que j’ay commis pendant cette
+                    misérable vie. Je croy un seul <name type="religious_figure">Dieu, mon créateur
+                        et mon rédempteur</name>, et tout ce que <name type="institution">l’Eglise
+                        catholique, apostolique et romaine</name> croy. Je recommande mon âme aux
+                    intercessions de <name type="religious_figure">la glorieuse vierge Marie</name>
+                    et de <name type="religious_figure">sainte Elizabeth</name>, mes patronnes, et à
+                    celles de <name type="religious_figure">mon ange gardien</name>, de <name
+                        type="religious_figure">saint Joseph</name> et de <name
+                        type="religious_figure">tous les saints et saintes</name> qui jouissent du
+                    bonheur que j’espère par leur assistance, que je les prie dès à présent de ne me
+                    pas refuser à l’heure de ma mort. Je dis avec un profond respect les noms de
+                        <name type="religious_figure">Jésus</name> et de <name
+                        type="religious_figure">Marie</name>, que je souhaite pouvoir prononcer avec
+                    connoissance au dernier moment de ma vie. </p>
+            </invocation>
+            <address>
+                <p> Cecy est mon testament, que je veux et ordonne qui soit exécutté dans toutte sa
+                    teneur comme il s’ensuit : </p>
+            </address>
+        </protocol>
+        <main>
+            <div paragraph="1" note="Burial specifications">
+                <p> Premièrement, <demand type="action">je veux être enterrée auprès du corps de mon
+                        très cher et très honoré père</demand>, dans la cave de <name type="place"
+                        >Goussainville</name>, et <demand type="service">que l’on fasse dire dans
+                        l’église de ce lieu un service annuel pour le repos de mon âme</demand>. Je
+                    laisse pour cela <bequest num="300">trois cens livres</bequest>. <demand type="service">Je
+                        veux que l’on me fasse un service sans aucune tenture ny cérémonies, dans la
+                        paroisse sur laquelle je mourray</demand>, soit à <name type="place"
+                        >Paris</name> ou à la campagne. <demand type="donation">Je veux que cent
+                        pauvres y assistent, moitié filles et moitié garçons</demand> : <bequest num="300">on
+                        donnera à chacun de ses pauvres enfans trois livres</bequest>, et <demand
+                        type="service">on leur dira de prier Dieu pour moy</demand>. </p>
+            </div>
+            <div paragraph="2"
+                note="Summary added by Boislisle as an editorial choice, not present in the original document.">
+                <p> [Legs : <bequest num="250">250 l.</bequest> aux <name type="institution" id="HOS"
+                        >Hospitalières de la place Royale</name>, <demand type="service">pour dire
+                        250 messes</demand>, et autant à <name type="institution">l’Ave-Maria</name>
+                    ; <bequest num="500">500 l.</bequest> à <name type="institution">l’église de</name>
+                    <name type="place">Goussainville</name>
+                    <demand type="service">pour célébrer à perpétuité, le 20 février, l’anniversaire
+                        de la mort du père de la testatrice</demand> ; <bequest num="500">500 l.</bequest> aux
+                        <name type="beneficiary">pauvres malades</name> de <name type="place"
+                        id="GOU">Goussainville</name>, <bequest num="300">300 l.</bequest> à ceux d’<name
+                        type="place" id="IVO">Ivors</name>, et autant à ceux de <name type="place"
+                        id="VIL">Villaines</name> et <name type="place" id="MIG">Mignaux</name> ;
+                    aux <name type="institution" id="DSM">dames de Sainte-Marie</name> de la <name
+                        type="place">rue Saint-Jacques</name>, <bequest>tous les meubles de
+                        l’appartement qu’elle occupe dans leur maison</bequest>; <bequest num="1000">1,000
+                        l.</bequest> à l’<name type="institution" id="HOD">Hôtel-Dieu</name>, autant
+                    à l’<name type="institution" id="HPG">Hôpital-Général</name> ; <bequest num="500">500
+                        l.</bequest> pour <demand type="action">délivrer quelques prisonniers pour
+                        dettes</demand> ; <bequest num="1500">1,500 l.</bequest> aux <name type="institution"
+                        id="HOS">Hospitalières de la place Royale</name> ; <bequest num="200">200 l.</bequest>
+                    aux <name type="institution" id="ANG">Anglaises</name> du <name type="place"
+                        >faubourg Saint-Antoine</name> ; <bequest num="1000">1,000 l.</bequest> aux <name
+                        type="beneficiary">pauvres de sa paroisse</name>, autant à <name
+                        type="institution" id="MDM">la Marmite des malades</name>, et <bequest num="200">200
+                        l.</bequest> pour les <name type="beneficiary">pauvres veuves et
+                        filles</name> de la <name type="place">rue de Reuilly</name> dont elle prend
+                    soin depuis longtemps.] </p>
+            </div>
+        </main>
+        <eschatocol>
+            <!-- This element is left empty because the sample size does not allow to include the eschatocol in this case -->
+            <note missing_element="End missing due to sample size limitation."/>
+        </eschatocol>
+    </docText>
+
+</document>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Testament d’Aimar Jean Nicolay, Premier
+                    Président honoraire de la chambre des Comptes, déposé après sa mort le<date when="1785-03-25">>25
+                        mars 1785.</date></title>
+                <author role="testator">Aimar Jean Nicolay</author>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Arthur Douilly</persName>
+                </respStmt>
+            </titleStmt>
+            <!-- Publication statement allows to give some information about the xml file's publication -->
+            <publicationStmt>
+                <distributor>Katarzyna Anna Kapitan</distributor>
+                <authority>École nationale des Chartes</authority>
+                <address>
+                    <addrLine>65 Rue de Richelieu, 75002 Paris</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- The msDesc element allows to describe some specificities of the physical document as well as its ID and localization -->
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives nationales</institution>
+                        <repository>Minutier Central</repository>
+                        <idno>MC/ET/CXII/805b</idno>
+                        <msName>Testament d'Aimar Jean de Nicolay</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>The testament of Aimar Jean Nicolay, first president of the Chambre des comptes of Paris. Handwritten holograph testament on paper.</summary>
+                    </msContents>
+                    <!-- physDesc allows to describe the support. This description is very limited, as I have not had the occasion to see the physical document in quite some time -->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Paper</support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- Below are listed references to the persons, organizations and places mentioned in the document, alongside additional information and suppositions
+                Each element is given its reference with 'xml:id' which can then be referenced in the document to help with reading and for encoding use -->
+                <listPerson>
+                    <person xml:id="CUR_STP">
+                        <persName>Curé de Saint Paul</persName>
+                        <affiliation xml:lang="ENG">clergy</affiliation>
+                        <note>Head of the parish of Saint Paul, in Paris, where the Nicolay family resided</note>
+                    </person>
+                    <person xml:id="CUR_GOU">
+                        <persName>Curé de Goussainville</persName>
+                        <affiliation xml:lang="ENG">clergy</affiliation>
+                        <note>Head of the parish of Goussainville, the main fiefdom of the Nicolay</note>
+                    </person>
+                    <person xml:id="CUR_OSN">
+                        <persName>Curé d'Osny</persName>
+                        <affiliation xml:lang="ENG">clergy</affiliation>
+                        <note>Head of the parish of Osny, one of the fiefdoms of the Nicolay</note>
+                    </person>
+                    <person xml:id="MAR">
+                        <persName>Soeur Marguerite</persName>
+                        <affiliation xml:lang="ENG" cert="medium">Affiliated to a religious order</affiliation>
+                        <note>This person is unknown outside of the reference in this document</note>
+                    </person>
+                    <person xml:id="FRA">
+                        <persName>Aymard Charles François de Nicolay</persName>
+                        <affiliation xml:lang="FRA">Premier président du Grand Conseil</affiliation>
+                        <affiliation xml:lang="ENG">First president of the Great Council</affiliation>
+                        <note>Second son of Aimar Jean and first to inherit due to the death of his older brother in 1754. Partly estranged from the family, has not inherited the familial office.</note>
+                    </person>
+                    <person xml:id="CLA">
+                        <persName>Aymard Claude de Nicolay</persName>
+                        <affiliation xml:lang="FRA">Evêque de Béziers</affiliation>
+                        <affiliation xml:lang="ENG"> Bishop of Beziers</affiliation>
+                        <note>Third son of Aimar Jean. Unlike most of the high clergy of the time, signs show that he did live in the seat of his diocese</note>
+                    </person>  
+                    <person xml:id="CHA">
+                        <persName>Aymard Charles Marie de Nicolay</persName>
+                        <affiliation xml:lang="FRA">Premier président de la Chambre des comptes de Paris</affiliation>
+                        <affiliation xml:lang="ENG">First president of the court of auditors of Paris</affiliation>
+                        <note>Fourth son of Aimar Jean and third to inherit. Has inherited the familial office in the 1770s, following the retirement of his father.</note>
+                    </person>
+                    <person xml:id="NOV">
+                        <persName>Philippine Léontine Potier de Novion</persName>
+                        <affiliation xml:lang="ENG">Wife of Aymard Charles Marie de Nicolay</affiliation>
+                        <note>The Potier de Novion family was a family of high robe nobility, traditionally first presidents in the Parliament of Paris</note>
+                    </person>
+                    <person xml:id="TIL">
+                        <persName>Aymardine Marie Antoinette de Nicolay</persName>
+                        <affiliation>Wife of the count of Tillières</affiliation>
+                        <note>Fourth daughter of Aimar Jean and his only surviving daughter at the time of his testament. The Tillières were very religious.</note>
+                    </person>
+                    <person xml:id="GEO">
+                        <persName>Aymard Pierre Georges de Nicolay</persName>
+                        <affiliation xml:lang="FRA">Lieutenant général des armées du roi (Restauration)</affiliation>
+                        <affiliation xml:lang="ENG">Lieutenant general of the king's armies under the Restauration</affiliation>
+                        <note>Last son of Aimar Jean</note>
+                    </person>
+                    <person xml:id="AIM">
+                        <persName>Aimard</persName>
+                        <note cert="low">Could be an illegitimate son? There are no traces of this person in the official genealogy, and he would have to be young to have a preceptor</note>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="GOU">
+                        <placeName>Goussainville</placeName>
+                        <note>Main fiefdom of the Nicolay, located in the north of Paris</note>
+                    </place>
+                    <place>
+                        <placeName>Osny</placeName>
+                    </place>
+                    <place xml:id="STP">
+                        <placeName>paroisse de Saint Paul</placeName>
+                        <note>Nowadays known as Saint-Paul Saint-Louis, located in the 4th arrondissement.</note>
+                    </place>
+                    <place xml:id="OSN">
+                        <placeName>Osny</placeName>
+                        <note cert="medium">One of the fiefdoms of the Nicolay, most likely located in the north of Paris. Could be the current day Osny, which is located near Cergy-Pontoise.</note>
+                    </place>
+                </listPlace>
+                <listOrg>
+                    <org xml:id="AVE">
+                        <orgName>Dames de l'Ave Maria</orgName>
+                        <note>A franciscan convent located in what is in the present day the 4th arrondissement of Paris</note>                           
+                    </org>
+                    <org xml:id="PMN">
+                        <orgName>Pères minimes</orgName>
+                        <note>One of the lesser known mendicant orders, founded in the 15th century in Italy</note>                           
+                    </org>
+                    <org xml:id="PAR_GOU">
+                        <orgName>Paroisse de Goussainville</orgName>
+                        <note>The parish of the Nicolays' main fiefdom</note>                           
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <!-- Encoding of the document starts below -->
+    
+    <text>
+        <body>
+            <div>
+                <!-- The opener element is very small in this document, but it can be used to great effect with testaments as an encoding of its protocol -->
+                <opener>
+                    Cecy est mon testament
+                </opener>
+                <!-- I have chosen to use the 'p' element here but it could have been structured like a list in this specific case.
+                Encoding of each element is very streamlined here, as the document is extremely well-structured. I think it is a good
+                example of the base structure of a testament, with a 'I give'/'this person'/'this object' structure -->
+                <p>
+                    Je veux que <eventName type="burial">mon enterrement</eventName> soit fait avec la plus grande modestie, sans tentures, sans sonnerie, sans invitation et que mon corps soit transporté à <placeName ref="#GOU">Goussainville</placeName> pour y être inhumé dans le caveau de mes pères.
+                </p>
+                <p>
+                    Je donne à <persName ref="#CUR_STP">Mr. le Curé</persName> de <placeName ref="#STP">St. Paul</placeName> <num value="1200">douze cent</num> <objectName type="money">livres</objectName> dont <num value="300">trois cent livres</num> seront pour qu’il emploie à faire dire des <eventName type="mass">messes</eventName> pour le repos de mon âme et dont le surplus sera par lui <eventName type="charity">distribué en aumônes</eventName> ainsi qu’il avisera bon estre.
+                </p>
+                <p>
+                    Je donne à <persName ref="#CUR_GOU">Mr. le Curé</persName> de <placeName ref="#GOU">Goussainville</placeName> la somme de <num value="900">neuf cent</num> <objectName type="money">livres</objectName> dont <num value="300">trois cent</num> pour des <eventName type="mass">messes</eventName> et le surplus sera par lui distribué en <eventName type="charity">aumônes</eventName>.
+                </p>
+                <p>
+                    Je donne à <persName ref="#CUR_OSN">Mr. le Curé</persName> d’<placeName ref="#OSN">Osny</placeName> <num value="600">six cent</num> <objectName type="money">livres</objectName> dont <num type="fraction" value="300">moitié</num> pour des <eventName type="mass">messes</eventName> et le reste en <eventName type="charity">aumônes</eventName>.
+                </p>
+                <p>
+                    Je donne aux <orgName ref="#AVE">dames de l’Ave Maria</orgName> <num value="900">neuf cent</num> <objectName type="money">livres</objectName> à la charge de faire acquitter à mon inhumation <num value="300">trois cent messes</num> le plus tôt qu’elles en auront la commodité.
+                </p>
+                <p>
+                    Je donne aux <orgName ref="#PMN">pères minimes</orgName> <num value="300">trois cent</num> <objectName type="money">livres</objectName> pour acquitter un <num value="300">pareil nombre</num> de <eventName type="mass">messes</eventName> à mon <eventName type="burial">inhumation</eventName>.
+                </p>
+                <p>
+                    Je veux qu’il soit remis tous les ans à la <persName ref="#MAR">sœur Marguerite</persName> un [...] laquelle sera attachée à ma <orgName ref="#PAR_GOU">paroisse</orgName> de <placeName ref="#GOU">Goussainville</placeName>, la somme de <num value="120">cent vingt</num> <objectName type="money">livres</objectName> qu’elle emploiera ou a ses commodités personnelles ou au soulagement de quelques malades.
+                </p>
+                <p>
+                    Je donne à <persName ref="#FRA">mon fils aîné premier président du grand conseil</persName> ma <objectName type="box">boîte d’or où est le[...] de la mère</objectName>, ensembles toutes mes <objectName type="medal">médailles d’or et d’argent</objectName>.
+                </p>
+                <p>
+                    Je donne à <persName ref="#CLA">mon fils l’évêque</persName> de <placeName>Béziers</placeName> mon <objectName type="diamond">diamant jaune</objectName>.
+                </p>
+                <p>
+                    Je donne a <persName ref="#CHA">mon fils premier président de la chambre des comptes</persName> la <objectName type="box">boîte d’or qui m’a été léguée par Mr. de Anugune</objectName> ensemble ma <objectName type="jewelry">bague de Turquoise</objectName>.
+                </p>
+                <p>
+                    Je prie <persName ref="#NOV">Mlle de Novion</persName> ma belle-fille d’accepter le <objectName type="diamond">diamant bleu que j’ai eu de l'exécution du testament de Mme sa grand-mère</objectName>.
+                </p>
+                <p>
+                    Je donne à <persName ref="#TIL" cert="high">Mme de Téllievres</persName> la <objectName type="jewelry">bague qui m’a été léguée par ma soeur</objectName> ensemble <objectName type="jewelry">deux petites bagues dans lesquels on a enfermé du bois de la Vraie Croix</objectName>.
+                </p>
+                <p>
+                    Je donne à <persName ref="#GEO" cert="low">mon fils</persName> de <placeName>Goussainville</placeName> <objectName type="cutlery">ma tasse de [...] avec la soucoupe</objectName> ensemble <objectName type="jewelry">ma bague qui ferme un chiffre</objectName>.
+                </p>
+                <p>
+                    Je fais à <persName ref="AIM">Aimard</persName> un petit présent de <num value="100">cent</num> <objectName type="money">louis</objectName> dont il offrira la <num type="fraction" value="50">moitié</num> à <persName>Mr. L’abbé son précepteur</persName>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
