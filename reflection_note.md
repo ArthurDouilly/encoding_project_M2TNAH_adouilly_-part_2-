@@ -2,7 +2,7 @@
 
 ### Differences between my custom DTD and TEI_all
 
-##### Advantages of using TEI_all
+#### Advantages of using TEI_all
 
 The immediate advantage of using the TEI_all scheme is that it has much greater depth than the custom DTD I have made when it comes to the **metadata description**. The structure of the 'teiHeader' element and its components allows to structure the encoded document in a much clearer way.
 
@@ -10,7 +10,7 @@ The immediate advantage of using the TEI_all scheme is that it has much greater 
 
 **The great variety of elements** available as part of TEI_all means that I was able to use schemes such as 'msDesc' or 'listPerson' to describe the document and where it can be found in detail, unlike my DTD.
 
-##### Difficulties and inconvenients of using TEI_all
+#### Difficulties and inconvenients of using TEI_all
 
 **The generalist nature of the TEI_all scheme** means that it is harder to describe the contents of the document to the extent which I would have liked to, or at least not in the manner I wanted to.
 
