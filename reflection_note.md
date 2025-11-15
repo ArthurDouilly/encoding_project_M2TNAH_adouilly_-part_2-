@@ -14,7 +14,7 @@ The immediate advantage of using the TEI_all scheme is that it has much greater 
 
 **The generalist nature of the TEI_all scheme** means that it is harder to describe the contents of the document to the extent which I would have liked to, or at least not in the manner I wanted to.
 
-**The structure of the encoding** is sometimes strange, mandating the use of elements which seem to only be present due to the restrictions of the scheme. Uses of the element 'div' had little impact on the document but was mandatory for the <p> element, for instance.
+**The structure of the encoding** is sometimes strange, mandating the use of elements which seem to only be present due to the restrictions of the scheme. Uses of the element 'div' had little impact on the document but was mandatory for the 'p' element, for instance.
 
 **The sheer size of the scheme** means one has less control and takes more time figuring out where which element should be included.
 
